@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-##############################################################################
-#######################Project1_AR_Homography#################################
-##################### Part-2-Superimposing Lena ##############################
-# Team Members (Group Name - Project Group)
-# PRANALI DESAI - 116182935
-# NIKHIL MEHRA - 116189941
-# SAYAN BRAHMA - 116309165
-##############################################################################
-
 import numpy as np
 import cv2 as cv
 import copy
@@ -273,8 +258,6 @@ while (True): # Looping through all the frames
         cap.release() # Releases software/hardware resource
         
 
-
-# In[ ]:
 
 
 
