@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
-##############################################################################
-#######################Project1_AR_Homography#################################
-##################### Part-1-Identifying AR Tags #############################
-# Team Members (Group Name - Project Group)
-# PRANALI DESAI - 116182935
-# NIKHIL MEHRA - 116189941
-# SAYAN BRAHMA - 116309165
-##############################################################################
-
 import numpy as np
 import cv2 as cv
 import copy
@@ -257,11 +242,3 @@ while (True): # Looping through all the frames
     if cv.waitKey(1) == 27: # Press 'ESC' to stop the processing and break out of the loop 
         cv.destroyAllWindows() # Destroys all window after pressing 'ESC'
         cap.release() # Releases software/hardware resource
-        
-
-
-# In[ ]:
-
-
-
-
