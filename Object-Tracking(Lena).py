@@ -256,9 +256,3 @@ while (True): # Looping through all the frames
     if cv.waitKey(1) == 27: # Press 'ESC' to stop the processing and break out of the loop 
         cv.destroyAllWindows() # Destroys all window after pressing 'ESC'
         cap.release() # Releases software/hardware resource
-        
-
-
-
-
-
