@@ -1,7 +1,6 @@
 import numpy as np
 import cv2 as cv
 import copy
-
 ##############################################################################
 # Function Name - checkCorners
 # Arguments - thresh (thresholded(binary) image), coord (coordinates to be checked)
