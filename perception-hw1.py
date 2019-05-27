@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import random  # Package used for randomize technique in RANSAC(Random Sample Consensus)
 from sympy.solvers import solve  # For solving linear equations in order find eigenvalue and eigenvector
 from sympy import Symbol  # Package used to define a variable so as to solve a linear equation
-
 ####################################################################
 ################Question1-Geometrical Interpretation################
 ####################################################################
