@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import random  # Package used for randomize technique in RANSAC(Random Sample Consensus)
