@@ -387,10 +387,3 @@ plt.savefig('Question3 - Data3')  # Remove '#' before plt to save the figure
 plt.xlabel('Question3 - Data3')
 
 plt.show()
-
-# In[ ]:
-
-
-
-
-# In[ ]:
