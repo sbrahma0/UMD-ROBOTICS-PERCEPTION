@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import numpy as np
 import cv2 as cv
 import copy
@@ -127,10 +121,3 @@ while (True): # Looping through all the frames
     if cv.waitKey(10) == 27: # Press 'ESC' to stop the processing and break out of the loop 
         cv.destroyAllWindows() # Destroys all window after pressing 'ESC'
         cap.release() # Releases software/hardware resource
-
-
-# In[ ]:
-
-
-
-
