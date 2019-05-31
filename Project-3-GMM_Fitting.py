@@ -1,16 +1,8 @@
-# #######################Project3_GMM_Fitting################################
-# Team Members (Group Name - Project Group)
-# PRANALI DESAI - 116182935
-# NIKHIL MEHRA - 116189941
-# SAYAN BRAHMA - 116309165
-##############################################################################
-
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
 import math
 import copy
-
 
 def calculateGaussianEquation(xcoor, mean, std):
     return ((1 / (std * math.sqrt(2 * math.pi))) * np.exp(-np.power(xcoor - mean, 2.) / (2 * np.power(std, 2.))))
